@@ -181,7 +181,6 @@ tr.parent a[href^="/"] {
 	height: 68px;
 	position: relative;
 	padding: 16px;
-	background: url("https://github.com/lubuntu-team/lubuntu-artwork/blob/master/src/usr/share/lubuntu/wallpapers/1804-lubuntu-default-wallpaper.png?raw=true");
 	background: linear-gradient(45deg, #005dc1 0%,#a400ba 100%);
 	background-size: 100% auto;
 
@@ -192,7 +191,7 @@ tr.parent a[href^="/"] {
 	width: 166px;
 	height: 64px;
 	float: right;
-	background: url("https://lubuntu.me/wp-content/uploads/2015/04/g4177.png");
+	background: url("lubuntu-logo.png");
 	background-repeat: no-repeat;
 	margin: 8px 16px 0 0;
 	padding-right: 48px;
