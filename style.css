@@ -1,0 +1,235 @@
+body
+{
+	margin: 0;
+	font-family: Ubuntu, Arial, san-serif;
+	font-size: 12px;
+	line-height: 16px;
+	text-rendering: optimizeLegibility;
+	overflow-x:hidden;
+	color: #555;
+}
+
+
+.clearBoth
+{
+	clear: both;
+}
+
+.floatRight
+{
+	float: right;
+}
+
+
+/*---------- Headers ----------*/
+
+h1
+{
+	font-size: 32px;
+	line-height: 40px;
+	margin: -70px 48px 0;
+	font-weight: normal;
+	color: white;
+	z-index: 255;
+	position: relative;
+}
+
+h2
+{
+	font-size: 1.5em;
+	line-height: 28px;
+	margin: 0;
+	font-weight: normal;
+	padding: 24px;
+	padding-bottom: 24px;
+}
+
+h3
+{
+	font-size: 2.5em;
+	line-height: 20px;
+	margin: 0;
+	margin-bottom: 16px;
+	font-weight: normal;
+	color: #2C4BA6;
+	padding: 24px;
+	padding-top: 0;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+
+
+/*---------- General ----------*/
+
+p
+{
+	font-size: 12px;
+	line-height: 16px;
+	margin: 0 0 0px 0;
+	color: #555;
+	padding: 8px;
+	padding-left: 24px;
+}
+
+dl {
+	font-size: 1.25em;
+	line-height: 2em;
+	margin: 0;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding: 16px;
+	padding-left: 64px;
+	color: #555;
+	background-color: #ccc;
+}
+
+ul
+{
+	margin: 0;
+ 	padding: 0;
+	color: #555;
+	padding: 8px;
+	padding-left: 64px;
+}
+
+a
+{
+	color: #2B5FB3;
+	text-decoration: none;
+}
+
+table {
+	margin: 0 auto; 
+	margin-top: 24px;
+	width: 75%;
+	padding: 24px;
+	border-collapse: collapse;
+	font-size: 1.25em;
+}
+
+tr {
+	outline:0;
+	border:0;
+}
+
+tr:hover td {
+	background: white;
+}
+th {
+	text-align:left;
+	font-size:.75em;
+	padding-right:20px;
+	padding-left: 24px;
+}
+
+/* 2nd Column: Filename */
+th + th {
+	width:65%;
+}
+/* 3rd Column: Last Modified */
+th + th + th {
+	width: 25%;
+}
+/* 4th Column: Size */
+th + th + th + th {
+	width: 25%;
+}
+tr td:first-of-type {
+	padding-left:10px;
+	padding-right:10px;
+}
+td {
+	padding:5px 0;
+	outline:0;
+	border:0;
+	border-bottom:1px solid #ccc;
+	vertical-align:middle;
+	text-align:left;
+	-webkit-transition:background 300ms ease;
+	   -moz-transition:background 300ms ease;
+	    -ms-transition:background 300ms ease;
+	     -o-transition:background 300ms ease;
+	        transition:background 300ms ease;
+}
+
+td a{
+	display: block;
+}
+tr.parent a[href^="/"] {
+	color:#9099A3;
+}
+	.parent a[href^="/"]:hover {
+		color:#2281d0;
+	}
+
+/*---------- Site specific styles ----------*/
+
+#pageWrapper
+{
+	background: white;
+	margin: 0;
+	padding:0 0 0px;
+}
+
+#header
+{
+	margin: 0;
+	margin-top: -24px;
+	margin-left: -24px;
+	margin-right: -24px;
+	background: #2B5FB3;
+	height: 68px;
+	position: relative;
+	padding: 16px;
+	background: url("https://github.com/lubuntu-team/lubuntu-artwork/blob/master/src/usr/share/lubuntu/wallpapers/1804-lubuntu-default-wallpaper.png?raw=true");
+	background: linear-gradient(45deg, #005dc1 0%,#a400ba 100%);
+	background-size: 100% auto;
+
+}
+
+#header a
+{
+	width: 166px;
+	height: 64px;
+	float: right;
+	background: url("https://lubuntu.me/wp-content/uploads/2015/04/g4177.png");
+	background-repeat: no-repeat;
+	margin: 8px 16px 0 0;
+	padding-right: 48px;
+}
+
+#main
+{
+	margin: 0px 0px 0 0px;
+	border: 1px solid #ccc;
+	background: #EDEDED;
+	position: relative;
+	margin-top: 64px;
+	margin-left: 50px;
+	margin-right: 64px;
+	border-radius: 8px;
+}
+
+address {
+	color: #888;
+	padding: 16px;
+	text-align: right;
+}
+
+hr  {
+	border-top: 1px solid #ccc;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	display: none;
+}
+
+pre
+{
+	overflow-y:auto;
+}
+
+.urgent
+{
+	color:red;
+}2C4BA6
