@@ -7,6 +7,7 @@ body
 	text-rendering: optimizeLegibility;
 	overflow-x:hidden;
 	color: #555;
+	background: white;
 }
 
 
@@ -25,7 +26,7 @@ body
 
 h1
 {
-	display:inline-block; 
+	display:inline-block;
 	font-size: 2em;
 	line-height: 40px;
 	margin: -70px 48px 0;
@@ -100,7 +101,7 @@ a
 }
 
 table {
-	margin: 0 auto; 
+	margin: 0 auto;
 	margin-top: 24px;
 	width: 75%;
 	padding: 24px;
@@ -167,7 +168,6 @@ tr.parent a[href^="/"] {
 
 #pageWrapper
 {
-	background: white;
 	margin: 0;
 	padding:0 0 0px;
 }
@@ -208,6 +208,7 @@ tr.parent a[href^="/"] {
 	margin-top: 64px;
 	margin-left: 50px;
 	margin-right: 64px;
+	margin-bottom: 64px;
 	border-radius: 8px;
 }
 
